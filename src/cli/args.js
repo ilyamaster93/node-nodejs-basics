@@ -5,7 +5,7 @@ const parseArgs = () => {
     for(let i = 0; i < myArgs.length; i=i+2) {
         listOfArgs.push(` ${myArgs[i].substring(2)} is ${myArgs[i+1]}`)
     }
-    console.log('listOfArgs', listOfArgs.toString())
+    console.log(listOfArgs.toString())
 };
 
 parseArgs();
